@@ -4,8 +4,9 @@
  Image is created using     ### docker build -t aditisinha-site:latest . 
  Then a container is started and port is exposed to the host using the command  
   ### docker run -d --name assgn1 -p 7070:80 aditisinha-site:latest
- Now at http://localhost:7070 <img width="1706" height="537" alt="image" src="https://github.com/user-attachments/assets/bb2499b1-f753-46f6-9278-70d1fd0e05d4" />
- 
+ Now at http://localhost:7070 <img width="1441" height="551" alt="image" src="https://github.com/user-attachments/assets/ce3a58fc-1e56-4042-8736-0c18da78f80b" />
+
+
 
  # Assignment 2
   There are two containers in the network webnet.  
@@ -19,8 +20,10 @@
   ### docker build -t aditi .
   ### docker run -d --name tmp --network webnet -p 8000:8000 aditi
   ### docker exec -it tmp curl http://api:5678
- <img width="811" height="101" alt="image" src="https://github.com/user-attachments/assets/40b11d97-8d9c-4718-a09b-344b573dc533" />
- <img width="1527" height="549" alt="image" src="https://github.com/user-attachments/assets/28bb5799-ec05-4024-bfd8-07a25b4a699e" />
+ <img width="1424" height="496" alt="image" src="https://github.com/user-attachments/assets/43ea67a1-a226-4b72-a734-e968f7abcc44" />
+ <img width="734" height="76" alt="image" src="https://github.com/user-attachments/assets/494f8953-f8d6-48bb-b7e8-17823fa147c9" />
+
+
 
 
 
